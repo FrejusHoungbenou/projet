@@ -1,0 +1,111 @@
+body
+{
+    padding: auto;
+}
+.D1
+{
+    margin: 7px;
+    padding: 5PX;
+    box-shadow: 3px 3px 10px  darkgray;
+    border: 0px darkgray solid;
+    height: 70px;
+}
+li
+{
+    color: blue;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+a
+{
+    color: rgb(9, 13, 250);
+    font-family: comic sans MS;
+}
+
+.links li
+{
+	display: inline;
+	margin-right: 30px;
+	
+}
+ .links li .profil
+ {
+        float: right;
+        margin-right: 20px;
+ }
+ 
+ .links li .profil1
+ {
+        float: right;
+        margin-right: 35px;
+ }
+
+ .links li a 
+ {
+ 	text-decoration: none;
+ }
+ .links li img 
+ {
+ 	width: 50px;
+ 	height: 50px;
+ 	border-radius: 100%;
+ }
+
+  nav ul li a:hover
+{
+    font-family: comic sans MS;
+   /* background-color: rgb(64, 20, 150); /* white*/;
+    color: gray/* orange */;
+    font-size: 25px;
+    padding: 7px;
+   /* font-family: Arial;*/
+    border-radius: 4px;
+    /*margin: right;*/
+    margin-right: 10px;
+}
+nav
+{
+    border: 25px;
+    color: darkgray;
+}
+
+
+.im6
+{
+    border-radius: 10px;
+    width: 390px;
+    height: 410px;
+}
+.image
+{
+    display: flex;
+    height: 200px;
+    margin-top: 2px;
+}
+.image img
+{
+    border-radius:7px ;
+    margin: 5px;
+    height: 90px;
+    width: 90px;
+}
+.image img:hover
+{
+ border : 2px solid blue ;  
+
+ opacity: 0.5;
+                                                                                                                                                                                                                                                                                                                                                                                           
+}
+.add
+{
+    color: lightcyan;
+    text-decoration: none;
+}
+.fin
+{
+    display: flex;
+}
+.fin p span
+{
+    cursor:alias;
+}

@@ -1,0 +1,95 @@
+
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+      <!-- Bootstrap CSS -->
+      <link href="boot/css/bootstrap.min.css" rel="stylesheet" >
+      <link rel="stylesheet" type="text/css" href="vente_chaus.css">
+      <title>vente de chaussures</title>
+  
+      
+    </head>
+      <body>
+
+		<div class="D1">
+			<nav class="header"><!-- elle contient des logo , les icones, les boutton du site-->
+				<ul class="links">
+					
+						<li><a href="#">Sneakers</a></li>
+						<li><a href="#">Collection</a></li>
+						<li><a href="#">Men</a></li>
+						<li><a href="#">Women</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="http://facebook.com">Facebook</a></li>
+                        <a href="#"><li><img src="image/im12.jpg" class="profil1"></li></a>
+					   <a href="#" ><li><img src="photo.png" class="profil"></li></a>
+              
+				</ul>
+			</nav>
+		</div><br><br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6 ">
+                    <div class="col-5">
+                        <img src="image/im6.jpg" class="im6"><br><br>
+                        <div class="image">
+                            <a href="#" ><img src="image/im1.jpg" class="im1"></a>
+                            <a href="#" ><img src="image/im7.jpg" class="im7"></a>
+                            <a href="#" ><img src="image/im11.jpg" class="im11"></a>
+                            <a href="#" > <img src="image/im2.jpg" class="im2"></a>
+                        </div>
+
+
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <div class="col-6 "><br><br>
+                    <!--<div class="col-1"></div>-->
+                     <p class=" text-primary h5">SNEAKER COMPANY</p> 
+                     <p class=" text-dark h3">Fall Limited Edition <br>Sneakers</p> <br>
+                     <p class=" text-secondary ">There low-profil sneakers are your perfect casual wear <br>
+                        companion. Featuring a durable rubber outer sole, they will<br>
+                        withstand everythingthe weathercan offer</p> 
+                    <p class="h4">$250.00 <span class="text-primary bg-light p-2 rounded">50%</span></p>
+					<p class="text-secondary">$500.00</p>
+                    <div class="fin">
+                         <p class=" h4 rounded bg-light p-1 w-50">
+                               <span class="text-primary" id="id1">+</span>
+                               <span id="id2" class="p-2"> 0 </span>
+                               <span class="text-primary" id="id3">-</span>
+                        </p>
+                         <a href="#" class="add"><div class="bg-primary text-light p-2 w-30 h4 h-20 text-center rounded">Add to cart </div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            let plus=document.getElementById('id1');
+            let moins=document.getElementById('id3');
+            plus.addEventListener('click',function ()
+            {
+                document.getElementById('id2').innerHTML++;
+            })
+
+            moins.addEventListener('click', function()
+            {
+                document.getElementById('id2').innerHTML--;
+            }
+            
+            )
+
+        </script>
+         
+
+
+             
+      </body>
+  </html>
