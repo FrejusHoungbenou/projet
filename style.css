@@ -56,7 +56,7 @@ a
     font-family: comic sans MS;
    /* background-color: rgb(64, 20, 150); /* white*/;
     color: gray/* orange */;
-    font-size: 25px;
+   /* font-size: 25px;*/
     padding: 7px;
    /* font-family: Arial;*/
     border-radius: 4px;
@@ -91,14 +91,28 @@ nav
 }
 .image img:hover
 {
- border : 2px solid blue ;  
-
- opacity: 0.5;
+    border : 6px double blue ;  
+    height: 120px;
+    width: 120px;
+    opacity: 0.5;
                                                                                                                                                                                                                                                                                                                                                                                            
 }
 .add
 {
     color: lightcyan;
+    text-decoration: none;
+   
+   
+}
+.addd
+{
+    margin-right: 25px;
+    float: right;
+    padding-left: 5px;
+    padding-right: 4px;
+}
+.addd :hover
+{
     text-decoration: none;
 }
 .fin
@@ -107,5 +121,14 @@ nav
 }
 .fin p span
 {
-    cursor:alias;
+    cursor:pointer;
+}
+.spa
+{
+    margin-right: 50px;
+}
+.dddd
+{
+    background-color: black;
+    width: 
 }
